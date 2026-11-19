@@ -1,0 +1,12 @@
+{
+  "name": "dentchina-render-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reverse proxy for existing DentChina Analytics Cloudflare Worker, without moving data or credentials",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test-gateway.js"
+  },
+  "engines": { "node": ">=20" }
+}
